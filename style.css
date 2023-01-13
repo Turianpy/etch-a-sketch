@@ -8,7 +8,7 @@ html {
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     height: 100%;
     width: 100%;
-    background-color: rgb(226, 228, 219);
+    background-color: rgb(201, 255, 255);
     font-size: 20px;
 }
 
@@ -103,14 +103,14 @@ input[type='color'] {
     -moz-appearance: none;
     appearance: none;
     border: none;
-    background-color: rgb(226, 228, 219);
-    width: 4rem;
-    height: 4rem;
+    background-color: rgb(201, 255, 255);
+    width: 5rem;
+    height: 5rem;
     cursor: pointer
 }
 
 input[type='color']::-webkit-color-swatch {
-    border-radius: 100%;
+    border-radius: 25%;
     border: none;
 }
 
