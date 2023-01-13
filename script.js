@@ -17,7 +17,7 @@ const btns = document.querySelectorAll('.btn.brush')
 let color = colorInput.value
 let canvasColor = canvasColorInput.value
 
-
+// stolen from sm1 else. I think onmousedown/up is bad practice but looks good //
 let mouseDown = false;
 document.body.onmousedown = () => (mouseDown = true);
 document.body.onmouseup = () => (mouseDown = false);
@@ -72,12 +72,15 @@ function clearCanvas() {
     createGrid(slider.value)
 }
 
+// Event listeners //
+
 colorInput.addEventListener('input', () => {
     color = colorInput.value
 })
 
 canvasColorInput.addEventListener('input', () => {
     canvasColor = canvasColorInput.value
+    sketchCont.style.backgroundColor = canvasColor
 })
 
 regularModeBtn.addEventListener('click', () => setMode('normal'));
@@ -98,7 +101,7 @@ canvasSlider.addEventListener('input', () => {
 })
 
 canvasSlider.addEventListener('change', () => {
-    let newSize = DEFAULTSIZE / 100 * canvasSlider.value
+    let newSize = (60 / 100) * canvasSlider.value
     sketchCont.setAttribute('style', `height: ${newSize}vh; width: ${newSize}vh`)
 })
 

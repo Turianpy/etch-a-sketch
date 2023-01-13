@@ -1,3 +1,6 @@
+// hiding overflow for animation duration //
+document.querySelector('body').style.overflow = 'hidden'
+
 const myName = document.querySelector('.me')
 const ghLogo = document.getElementById('github-logo')
 
@@ -41,5 +44,9 @@ lastLetter.addEventListener('animationend', (e) => {
     const newGh = document.querySelector('.go-back')
     newGh.addEventListener('animationend', (e) => {
         goBack(myName)
+        const lastAnimation = myName.childNodes[6]
+        lastAnimation.addEventListener('animationend', (e) => {
+            document.querySelector('body').style.overflow = 'visible'
+        })
     })
 })
