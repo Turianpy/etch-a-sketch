@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Etch-a-sketch</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="wasteoftime.css">
+    </head>
+    <body>
+        <header>Etch-a-sketch</header>
+        <main class="main">
+            <div class="control-panel">
+                <h2>Brush settings</h3>
+                <input id="color-picker" type="color" value="#000000">
+                <div class='btn brush' id="normal">Regular</div>
+                <div class='btn brush' id="random">Random</div>
+                <div class='btn brush' id="erase">Eraser</div>
+            </div>
+            <div class="sketch-cont"></div>
+            <div class="canvas-settings">
+                <h2>Canvas settings</h2>
+                <input id="canvas-color" type="color" value="#FFFFFF">
+                <div class='btn' id="clear">Clear</div>
+                <div class="canvas-grid">
+                    <h3>Grid size</h3>
+                    <div id="slider-value">16x16</div>
+                    <input id="slider" type="range" min="1" max="100" value="16">
+                </div>
+                <div class="canvas-size">
+                    <h3>Canvas size</h3>
+                    <div id="canvas-size-val">100%</div>
+                    <input id="canvas-slider" type="range" min="50" max="150" value="100">
+                </div>
+                
+            </div>
+        </main>
+        <footer>
+            <p id="copyright">
+                Copyright © 
+                <script>document.write(new Date().getFullYear())</script>
+                <span class="me">Turianpy</span>
+            </p>
+            <img src="images/github logo.png" alt="github-logo" id="github-logo">
+        </footer>
+        
+    </body>
+    <script src="script.js"></script>
+    <script src="wasteoftime.js"></script>
+</html>

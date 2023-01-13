@@ -1,0 +1,240 @@
+@keyframes github-slide-in {
+    0% {
+        transform: translateX(750%);
+        opacity: 0;
+    }
+
+    50% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateX(-150%);
+    }
+}
+
+@keyframes github-go-back {
+    0% {transform: translateX(-150%); opacity: 1;}
+    100% {transform: translateX(0%); opacity: 1;}
+}
+
+@keyframes y-impact {
+    0% {transform: translateX(0%)}
+    10% {transform: translate(-6300%, -300%) rotate(500deg)}
+    20% {transform: translate(5000%, -1000%) rotate(1000deg)}
+    40% {transform: translate(5000%, 0%) rotate(180deg)}
+    50% {transform: translate(4500%, -100%) rotate(90deg)}
+    60% {transform: translate(4000%, 0%) rotate(0deg)}
+    70% {transform: translate(3750%, -80%) rotate(40deg);}
+    80% {transform: translate(3500%, 0%) rotate(50deg);}
+    85% {transform: translate(3400%, -50%);}
+    90% {transform: translate(3300%, 0%);}
+    95% {transform: translate(3200%, -35%);}
+    100% {transform: translate(3100%, 0%);}
+}
+
+@keyframes y-go-back {
+    0% {transform: translate(3100%, 0%);}
+    100% {transform: translate(0%, 0%);}
+}
+
+@keyframes p-impact {
+    0% {transform: translateX(0%)}
+    10% {transform: translate(-1500%, -6000%) rotate(1000deg);}
+    60% {transform: translate(-1500%, -6000%) rotate(1000deg);}
+    80% {transform: translate(-3000%, 20%) rotate(0deg);}
+    85% {transform: translate(-3300%, -100%) rotate(500deg);}
+    90% {transform: translate(-3500%, 20%) rotate(0deg);}
+    95% {transform: translate(-3600%, -50%) rotate(200deg);}
+    100% {transform: translate(-3650%, 20%);}
+}
+
+@keyframes p-go-back {
+    0% {transform: translate(-3650%, 20%);}
+    5% {transform: translate(-3500%, -20%) rotate(30deg);}
+    10% {transform: translate(-3350%, 20%) rotate(-30deg);}
+    15% {transform: translate(-3100%, -20%) rotate(30deg);}
+    20% {transform: translate(-2950%, 20%) rotate(-30deg);}
+    25% {transform: translate(-2800%, -20%) rotate(30deg);}
+    30% {transform: translate(-2650%, 20%) rotate(-30deg);}
+    35% {transform: translate(-2500%, -20%) rotate(30deg);}
+    40% {transform: translate(-2350%, 20%) rotate(-30deg);}
+    45% {transform: translate(-2200%, -20%) rotate(30deg);}
+    50% {transform: translate(-2050%, 20%) rotate(-30deg);}
+    55% {transform: translate(-1900%, -20%) rotate(30deg);}
+    60% {transform: translate(-1750%, 20%) rotate(-30deg);}
+    65% {transform: translate(-1500%, -20%) rotate(30deg);}
+    70% {transform: translate(-1350%, 20%) rotate(-30deg);}
+    75% {transform: translate(-1200%, -20%) rotate(30deg);}
+    80% {transform: translate(-1050%, 20%) rotate(-30deg);}
+    85% {transform: translate(-900%, -20%) rotate(30deg);}
+    90% {transform: translate(-750%, 20%) rotate(-30deg);}
+    95% {transform: translate(-500%, -40%) rotate(50deg);}
+    100% {transform: translate(0%, 0%);}
+}
+
+@keyframes n-impact {
+    0% {transform: translateX(0%)}
+    10% {transform: translate(-7000%, -4700%) rotate(1000deg);}
+    20% {transform: translate(-9000%, -4500%) rotate(700deg);}
+    30% {transform: translate(-3000%, 0%) rotate(0deg);}
+    40% {transform: translate(9000%, -1500%) rotate(1000deg);}
+    100% {transform: translate(9000%, -1500%) rotate(1000deg);}
+    
+}
+
+@keyframes n-go-back {
+    0% {transform: translate(9000%, -1500%) rotate(1000deg);}
+    100% {transform: translate(0%, 0%);}
+}
+
+@keyframes a-impact {
+    0% {transform: translateX(0%);}
+    10% {transform: translate(-10000%, -1000%) rotate(500deg);}
+    100% {transform: translate(-10000%, -1000%) rotate(500deg);}
+}
+
+@keyframes a-go-back {
+    0% {transform: translate(-10000%, -1000%) rotate(500deg);}
+    100% {transform: translate(0%, 0%);}
+}
+
+@keyframes i-impact {
+    0% {transform: translateX(0%);}
+    30% {transform: translate(-30000%, -3000%) rotate(3000deg);}
+    100% {transform: translate(-30000%, -3000%) rotate(3000deg);}
+}
+
+@keyframes i-go-back {
+    0% {transform: translate(-30000%, -3000%) rotate(3000deg);}
+    100% {transform: translate(0%, 0%);}
+}
+
+
+@keyframes r-impact {
+    0% {transform: translateX(0%);}
+    20% {transform: translate(-10500%, -3200%) rotate(90deg);}
+    100% {transform: translate(-10500%, -3200%) rotate(90deg);}
+}
+
+@keyframes r-go-back {
+    0% {transform: translate(-10500%, -3200%) rotate(90deg);}
+    100% {transform: translate(0%, 0%);}
+}
+
+@keyframes u-impact {
+    0% {transform: translateX(0%);}
+    10% {transform: translate(-10000%, -1000%) rotate(1000deg);}
+    20% {transform: translate(8000%, -2000%) rotate(500deg);}
+    40% {transform: translate(-10000%, -2500%) rotate(1000deg);}
+    60% {transform: translate(8000%, -3000%) rotate(500deg);}
+    80% {transform: translate(7000%, 0%) rotate(1000deg);}
+    85% {transform: translate(7500%, -200%) rotate(500deg);}
+    90% {transform: translate(7850%, 0%) rotate(0deg);}
+    95% {transform: translate(8000%, -100%) rotate(200deg);}
+    100% {transform: translate(8100%, 0%) rotate(350deg);}
+}
+
+@keyframes u-go-back {
+    0% {transform: translate(8100%, 0%) rotate(350deg);}
+    100% {transform: translate(0%, 0%);}
+}
+
+@keyframes t-impact {
+    0% {transform: translateX(0%);}
+    5% {transform: translate(-5000%, -1000%) rotate(180deg);}
+    10% {transform: translate(-7200%, -600%) rotate(360deg);}
+    15% {transform: translate(-6000%, 50%) rotate(500deg);}
+    25% {transform: translate(-2000%, -1000%) rotate(750deg);}
+    40% {transform: translate(2000%, 50%) rotate(1000deg);}
+    50% {transform: translate(3000%, -200%) rotate(1250deg);}
+    60% {transform: translate(3500%, 50%) rotate(1500deg);}
+    65% {transform: translate(3800%, -100%) rotate(2000deg);}
+    70% {transform: translate(4100%, 50%) rotate(2500deg);}
+    75% {transform: translate(4200%, -50%) rotate(3000deg);}
+    80% {transform: translate(4300%, 50%) rotate(3250deg);}
+    100% {transform: translate(4300%, 50%) rotate(3330deg);}
+}
+
+@keyframes t-go-back {
+    0% {transform: translate(4300%, 50%) rotate(3330deg);}
+    100% {transform: translate(0%, 0%);}
+}
+
+#github-logo.animate{
+    animation: github-slide-in 0.3s ease-in forwards;
+}
+
+#github-logo.go-back {
+    animation: github-go-back 0.3s linear forwards;
+}
+
+.me span{
+    display: inline-block;
+    transition: 2s ease;
+}
+
+.me.animate #l7 {
+    animation: y-impact 2.2s linear forwards;
+}
+
+.me.go-back #l7 {
+    animation: y-go-back 1.5s ease-in forwards;
+}
+
+.me.animate #l6 {
+    animation: p-impact 2.7s linear forwards;
+}
+
+.me.go-back #l6 {
+    animation: p-go-back 5s ease-in forwards;
+}
+
+.me.animate #l5 {
+    animation: n-impact 2.5s linear forwards;
+}
+
+.me.go-back #l5 {
+    animation: n-go-back 2s ease-in forwards;
+}
+
+.me.animate #l4 {
+    animation: a-impact 2s linear forwards;
+}
+
+.me.go-back #l4 {
+    animation: a-go-back 1.75s ease-out forwards;
+}
+
+.me.animate #l3 {
+    animation: i-impact 2s linear forwards;
+}
+
+.me.go-back #l3 {
+    animation: i-go-back 3.6s ease-out forwards;
+}
+
+.me.animate #l2 {
+    animation: r-impact 2s linear forwards;
+}
+
+.me.go-back #l2 {
+    animation: r-go-back 1.5s ease-out forwards;
+}
+
+.me.animate #l1 {
+    animation: u-impact 3s linear forwards;
+}
+
+.me.go-back #l1 {
+    animation: u-go-back 2s ease-out forwards;
+}
+
+.me.animate #l0 {
+    animation: t-impact 3s linear forwards;
+}
+
+.me.go-back #l0 {
+    animation: t-go-back 2.3s ease-out forwards;
+}
