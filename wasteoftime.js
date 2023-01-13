@@ -42,9 +42,9 @@ const lastLetter = document.querySelector('.last')
 lastLetter.addEventListener('animationend', (e) => {
     goBack(ghLogo)
     const newGh = document.querySelector('.go-back')
-    newGh.addEventListener('animationend', (e) => {
+    newGh.addEventListener('animationstart', (e) => {
         goBack(myName)
-        const lastAnimation = myName.childNodes[6]
+        const lastAnimation = myName.childNodes[0]
         lastAnimation.addEventListener('animationend', (e) => {
             document.querySelector('body').style.overflow = 'visible'
         })

@@ -13,6 +13,7 @@ const randomBtn = document.getElementById('random')
 const eraserBtn = document.getElementById('erase')
 const clearBtn = document.getElementById('clear')
 const btns = document.querySelectorAll('.btn.brush')
+const shadeBtn = document.getElementById('shade')
 
 let color = colorInput.value
 let canvasColor = canvasColorInput.value
@@ -87,6 +88,7 @@ regularModeBtn.addEventListener('click', () => setMode('normal'));
 randomBtn.addEventListener('click', () => setMode('random'));
 eraserBtn.addEventListener('click', () => setMode('erase'));
 clearBtn.addEventListener('click', () => clearCanvas());
+shadeBtn.addEventListener('click', () => alert('this no work me lazy didnt do'))
 
 slider.addEventListener('input', () => {
     sliderVal.innerHTML = `${slider.value} x ${slider.value}`
