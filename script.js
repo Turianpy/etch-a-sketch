@@ -104,7 +104,7 @@ canvasSlider.addEventListener('input', () => {
 
 canvasSlider.addEventListener('change', () => {
     let newSize = (60 / 100) * canvasSlider.value
-    sketchCont.setAttribute('style', `height: ${newSize}vh; width: ${newSize}vh`)
+    sketchCont.style.height = sketchCont.style.width = `${newSize}vh` 
 })
 
 window.addEventListener('load', () => createGrid(DEFAULTSIZE))
